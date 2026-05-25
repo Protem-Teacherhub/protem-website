@@ -51,9 +51,14 @@ export default function ProTemLandingPage() {
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">
-            <button className="px-7 py-4 rounded-2xl bg-blue-950 text-white font-semibold shadow-lg hover:scale-105 transition">
-              Join as a Professional
-            </button>
+            <a
+  href="https://forms.gle/P5ySj7avRMURsLNp7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-7 py-4 rounded-2xl bg-blue-950 text-white font-semibold shadow-lg hover:scale-105 transition inline-block"
+>
+  Join as a Professional
+</a>
 
             <button className="px-7 py-4 rounded-2xl border-2 border-cyan-500 text-cyan-700 font-semibold hover:bg-cyan-50 transition">
               Partner with ProTem
