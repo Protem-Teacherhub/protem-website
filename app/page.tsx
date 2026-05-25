@@ -12,7 +12,7 @@ export default function ProTemLandingPage() {
             <img
               src="/logo.png"
               alt="ProTem Logo"
-              className="w-24 h-24 object-contain"
+              className="w-30 h-30 object-contain"
             />
             <div>
               <h1 className="text-4xl font-extrabold tracking-tight text-blue-950">
