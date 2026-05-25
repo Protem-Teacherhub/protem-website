@@ -60,9 +60,14 @@ export default function ProTemLandingPage() {
   Join as a Professional
 </a>
 
-            <button className="px-7 py-4 rounded-2xl border-2 border-cyan-500 text-cyan-700 font-semibold hover:bg-cyan-50 transition">
-              Partner with ProTem
-            </button>
+            <a
+  href="https://forms.gle/WUuKWnedKusQMPKv8"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-7 py-4 rounded-2xl border-2 border-teal-500 text-teal-700 font-semibold hover:bg-teal-50 transition inline-block"
+>
+  Partner with ProTem
+</a>
           </div>
         </div>
 
