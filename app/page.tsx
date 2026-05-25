@@ -16,7 +16,7 @@ export default function ProTemLandingPage() {
             />
             <div>
               <h1 className="text-4xl font-extrabold tracking-tight text-blue-950">
-                Pro<span className="text-cyan-500">Tem</span>
+                Pro<span className="text-teal-500">Tem</span>
               </h1>
               <p className="text-xs text-slate-500 tracking-wide">
                 Temporary Professionals for Schools
@@ -25,10 +25,10 @@ export default function ProTemLandingPage() {
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
-            <a href="#schools" className="hover:text-cyan-600 transition">For Schools</a>
-            <a href="#professionals" className="hover:text-cyan-600 transition">For Professionals</a>
-            <a href="#about" className="hover:text-cyan-600 transition">About</a>
-            <a href="#contact" className="hover:text-cyan-600 transition">Contact</a>
+            <a href="#schools" className="hover:text-teal-600 transition">For Schools</a>
+            <a href="#professionals" className="hover:text-teal-600 transition">For Professionals</a>
+            <a href="#about" className="hover:text-teal-600 transition">About</a>
+            <a href="#contact" className="hover:text-teal-600 transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -36,13 +36,13 @@ export default function ProTemLandingPage() {
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <div className="inline-flex items-center gap-2 bg-cyan-50 text-cyan-700 px-4 py-2 rounded-full text-sm font-semibold mb-6 border border-cyan-100">
+          <div className="inline-flex items-center gap-2 bg-teal-50 text-teal-700 px-4 py-2 rounded-full text-sm font-semibold mb-6 border border-teal-100">
             Empowering Educators • Supporting Schools
           </div>
 
           <h2 className="text-4xl md:text-5xl font-black leading-tight text-blue-950">
             Flexible Teaching.
-            <span className="block text-cyan-500">Meaningful Impact.</span>
+            <span className="block text-teal-500">Meaningful Impact.</span>
           </h2>
 
           <p className="mt-8 text-lg leading-8 text-slate-600 max-w-xl">
@@ -60,19 +60,19 @@ export default function ProTemLandingPage() {
   Join as a Professional
 </a>
 
-            <button className="px-7 py-4 rounded-2xl border-2 border-cyan-500 text-cyan-700 font-semibold hover:bg-cyan-50 transition">
+            <button className="px-7 py-4 rounded-2xl border-2 border-teal-500 text-teal-700 font-semibold hover:bg-teal-50 transition">
               Partner with ProTem
             </button>
           </div>
         </div>
 
         <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-tr from-cyan-400/20 to-blue-900/10 blur-3xl rounded-full"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-teal-400/20 to-blue-900/10 blur-3xl rounded-full"></div>
 
           <div className="relative bg-white rounded-[32px] shadow-2xl border border-slate-100 p-10">
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-slate-50 rounded-2xl p-6">
-                <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center text-2xl mb-4">
+                <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center text-2xl mb-4">
                   🏫
                 </div>
                 <h3 className="text-xl font-bold text-blue-950 mb-2">For Schools</h3>
@@ -82,7 +82,7 @@ export default function ProTemLandingPage() {
               </div>
 
               <div className="bg-slate-50 rounded-2xl p-6">
-                <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center text-2xl mb-4">
+                <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center text-2xl mb-4">
                   👩‍🏫
                 </div>
                 <h3 className="text-xl font-bold text-blue-950 mb-2">For Professionals</h3>
@@ -92,12 +92,12 @@ export default function ProTemLandingPage() {
               </div>
             </div>
 
-            <div className="mt-8 bg-gradient-to-r from-blue-950 to-cyan-600 rounded-3xl p-8 text-white">
+            <div className="mt-8 bg-gradient-to-r from-blue-950 to-teal-600 rounded-3xl p-8 text-white">
               <h3 className="text-3xl font-bold leading-tight">
                 A Win-Win for Better Education
               </h3>
 
-              <p className="mt-4 text-cyan-50 leading-7">
+              <p className="mt-4 text-teal-50 leading-7">
                 Connecting schools with passionate professionals for stronger classrooms every day.
               </p>
             </div>
@@ -110,7 +110,7 @@ export default function ProTemLandingPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black text-blue-950">
-              For <span className="text-cyan-500">Schools</span>
+              For <span className="text-teal-500">Schools</span>
             </h2>
             <p className="mt-5 text-lg text-slate-600 max-w-3xl mx-auto">
               Reliable temporary professionals when you need them most.
@@ -171,7 +171,7 @@ export default function ProTemLandingPage() {
           <div>
             <h2 className="text-4xl md:text-5xl font-black text-blue-950 leading-tight">
               Why Professionals Love
-              <span className="block text-cyan-500">ProTem</span>
+              <span className="block text-teal-500">ProTem</span>
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
@@ -189,7 +189,7 @@ export default function ProTemLandingPage() {
                   key={index}
                   className="flex items-start gap-4 bg-slate-50 rounded-2xl p-5"
                 >
-                  <div className="w-8 h-8 rounded-full bg-cyan-500 text-white flex items-center justify-center font-bold">
+                  <div className="w-8 h-8 rounded-full bg-teal-500 text-white flex items-center justify-center font-bold">
                     ✓
                   </div>
                   <p className="text-slate-700 text-lg">{item}</p>
@@ -198,12 +198,12 @@ export default function ProTemLandingPage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-950 to-cyan-600 rounded-[40px] p-12 text-white shadow-2xl">
+          <div className="bg-gradient-to-br from-blue-950 to-teal-600 rounded-[40px] p-12 text-white shadow-2xl">
             <h3 className="text-4xl font-black leading-tight">
               Your skills can open doors.
             </h3>
 
-            <p className="mt-6 text-cyan-50 text-lg leading-8">
+            <p className="mt-6 text-teal-50 text-lg leading-8">
               Inspire students, support schools, and grow your teaching journey with ProTem.
             </p>
 
@@ -231,7 +231,7 @@ export default function ProTemLandingPage() {
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-black text-blue-950">
             Better Together.
-            <span className="block text-cyan-500">Stronger Every Day.</span>
+            <span className="block text-teal-500">Stronger Every Day.</span>
           </h2>
 
           <p className="mt-8 text-lg text-slate-600 leading-8 max-w-3xl mx-auto">
@@ -245,7 +245,7 @@ export default function ProTemLandingPage() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-5xl font-black">Let's Connect</h2>
 
-          <p className="mt-6 text-cyan-100 text-lg">
+          <p className="mt-6 text-teal-100 text-lg">
             We'd love to hear from schools and educators across India.
           </p>
 
@@ -253,19 +253,19 @@ export default function ProTemLandingPage() {
             <div className="bg-white/10 rounded-3xl p-8 backdrop-blur border border-white/10">
               <div className="text-4xl mb-4">📞</div>
               <h3 className="text-2xl font-bold mb-2">Call Us</h3>
-              <p className="text-cyan-100">+91 9949775100</p>
+              <p className="text-teal-100">+91 9949775100</p>
             </div>
 
             <div className="bg-white/10 rounded-3xl p-8 backdrop-blur border border-white/10">
               <div className="text-4xl mb-4">✉️</div>
               <h3 className="text-2xl font-bold mb-2">Email</h3>
-              <p className="text-cyan-100">contact@protem.co.in</p>
+              <p className="text-teal-100">contact@protem.co.in</p>
             </div>
 
             <div className="bg-white/10 rounded-3xl p-8 backdrop-blur border border-white/10">
               <div className="text-4xl mb-4">🌐</div>
               <h3 className="text-2xl font-bold mb-2">Website</h3>
-              <p className="text-cyan-100">www.protem.co.in</p>
+              <p className="text-teal-100">www.protem.co.in</p>
             </div>
           </div>
         </div>
@@ -276,7 +276,7 @@ export default function ProTemLandingPage() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-2xl font-bold text-white">
-              Pro<span className="text-cyan-400">Tem</span>
+              Pro<span className="text-teal-400">Tem</span>
             </h3>
             <p className="mt-2 text-sm text-slate-400">
               Temporary Professionals for Schools
