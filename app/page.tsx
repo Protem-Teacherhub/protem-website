@@ -27,6 +27,7 @@ export default function ProTemLandingPage() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
             <a href="#schools" className="hover:text-cyan-600 transition">For Schools</a>
             <a href="#professionals" className="hover:text-cyan-600 transition">For Professionals</a>
+            <a href="#educators" className="hover:text-teal-600 transition">Available Educators</a>
             <a href="#about" className="hover:text-cyan-600 transition">About</a>
             <a href="#contact" className="hover:text-cyan-600 transition">Contact</a>
           </div>
@@ -230,7 +231,108 @@ export default function ProTemLandingPage() {
           </div>
         </div>
       </section>
+{/* Available Educators */}
+<section id="educators" className="py-20 bg-white border-y border-slate-200">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl md:text-5xl font-black text-blue-950">
+        Available <span className="text-teal-500">Educators</span>
+      </h2>
 
+      <p className="mt-5 text-lg text-slate-600 max-w-3xl mx-auto">
+        Browse qualified teaching professionals currently registered with ProTem.
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      {[
+        {
+          name: "Sucherita K.",
+          subjects: "Science, Chemistry, Biology",
+          city: "Hyderabad",
+          curriculum: "CBSE, IGCSE, State Board",
+          grades: "Grades 6–10",
+          experience: "10+ Years",
+        },
+        {
+          name: "Rituparna S.",
+          subjects: "Biology",
+          city: "Hyderabad",
+          curriculum: "CBSE, IGCSE, IB",
+          grades: "Grades 6–10",
+          experience: "2–5 Years",
+        },
+        {
+          name: "Mytreyi S.",
+          subjects: "Mathematics, Physics",
+          city: "Bangalore",
+          curriculum: "CBSE",
+          grades: "Grades 6–10",
+          experience: "0–1 Years",
+        },
+        {
+          name: "Bhavna B.",
+          subjects: "Senior Secondary",
+          city: "Dehradun",
+          curriculum: "ICSE, IGCSE, IB",
+          grades: "Grades 11–12",
+          experience: "10+ Years",
+        },
+        {
+          name: "Shuchi N.",
+          subjects: "English",
+          city: "Vadodara",
+          curriculum: "CBSE",
+          grades: "Grades 11–12",
+          experience: "10+ Years",
+        },
+        {
+          name: "Nidhi",
+          subjects: "Kindergarten",
+          city: "Bangalore",
+          curriculum: "CBSE",
+          grades: "Pre-primary",
+          experience: "0–1 Years",
+        },
+      ].map((teacher, index) => (
+        <div
+          key={index}
+          className="bg-slate-50 rounded-3xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition"
+        >
+          <div className="w-20 h-20 rounded-full bg-teal-100 flex items-center justify-center text-4xl mx-auto mb-6">
+            👩‍🏫
+          </div>
+
+          <h3 className="text-2xl font-bold text-center text-blue-950">
+            {teacher.name}
+          </h3>
+
+          <div className="mt-6 space-y-3 text-slate-600 text-sm leading-6">
+            <p><span className="font-semibold text-slate-800">Subjects:</span> {teacher.subjects}</p>
+
+            <p><span className="font-semibold text-slate-800">City:</span> {teacher.city}</p>
+
+            <p><span className="font-semibold text-slate-800">Curriculum:</span> {teacher.curriculum}</p>
+
+            <p><span className="font-semibold text-slate-800">Grades:</span> {teacher.grades}</p>
+
+            <p><span className="font-semibold text-slate-800">Experience:</span> {teacher.experience}</p>
+          </div>
+
+          <a
+            href="https://forms.gle/NM7FGaVj4ZwL2yZY6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 block text-center bg-blue-950 text-white font-semibold py-3 rounded-2xl hover:bg-teal-600 transition"
+          >
+            Request Substitute
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       {/* About */}
       <section id="about" className="py-20 bg-slate-50 border-y border-slate-200">
         <div className="max-w-5xl mx-auto px-6 text-center">
