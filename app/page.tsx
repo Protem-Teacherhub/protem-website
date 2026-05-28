@@ -19,7 +19,17 @@ export default function ProTemLandingPage() {
     src="/logo.png"
     alt="ProTem Logo"
     className="w-24 h-24 object-contain"
+    
   />
+  <div>
+  <h1 className="text-6xl font-black leading-none text-[#142459]">
+    Pro<span className="text-[#16C4C4]">Tem</span>
+  </h1>
+
+  <p className="text-base font-medium mt-1 text-slate-500 tracking-wide">
+    Temporary Professionals for Schools
+  </p>
+</div>
 
   <div>
     <h1 className="text-5xl font-black leading-none text-[#142459]">
@@ -49,7 +59,7 @@ export default function ProTemLandingPage() {
             Empowering Educators • Supporting Schools
           </div>
 
-          <h2 className="mt-8 text-5xl md:text-6xl font-black leading-[1.05] tracking-tight text-[#142459]">
+          <h2 className="mt-8 text-3xl md:text-4xl font-black leading-[1.05] tracking-tight text-[#142459]">
             Flexible Teaching.
             <span className="block text-[#16C4C4]">Meaningful Impact.</span>
           </h2>
