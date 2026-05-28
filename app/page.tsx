@@ -31,16 +31,7 @@ export default function ProTemLandingPage() {
   </p>
 </div>
 
-  <div>
-    <h1 className="text-5xl font-black leading-none text-[#142459]">
-      Pro<span className="text-[#16C4C4]">Tem</span>
-    </h1>
-
-    <p className="text-sm mt-1 text-slate-500 tracking-wide">
-      Temporary Professionals for Schools
-    </p>
             </div>
-          </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
             <a href="#schools" className="hover:text-teal-500 transition">For Schools</a>
