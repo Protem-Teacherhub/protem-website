@@ -12,20 +12,23 @@ export default function ProTemLandingPage() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-800">
       {/* Navbar */}
       <nav className="w-full border-b border-slate-200 bg-white/90 backdrop-blur sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <img
-              src="/logo.png"
-              alt="ProTem Logo"
-              className="w-30 h-30 object-contain"
-            />
-            <div>
-              <h1 className="text-4xl font-extrabold tracking-tight text-[#142459]">
-                Pro<span className="text-[#16C4C4]">Tem</span>
-              </h1>
-              <p className="text-xs text-slate-500 tracking-wide">
-                Temporary Professionals for Schools
-              </p>
+        <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+          <div className="flex items-center gap-5">
+
+  <img
+    src="/logo.png"
+    alt="ProTem Logo"
+    className="w-20 h-20 object-contain"
+  />
+
+  <div>
+    <h1 className="text-5xl font-black leading-none text-[#142459]">
+      Pro<span className="text-[#16C4C4]">Tem</span>
+    </h1>
+
+    <p className="text-sm mt-1 text-slate-500 tracking-wide">
+      Temporary Professionals for Schools
+    </p>
             </div>
           </div>
 
@@ -46,7 +49,7 @@ export default function ProTemLandingPage() {
             Empowering Educators • Supporting Schools
           </div>
 
-          <h2 className="text-4xl md:text-5xl font-black leading-tight text-[#142459]">
+          <h2 className="mt-8 text-5xl md:text-6xl font-black leading-[1.05] tracking-tight text-[#142459]">
             Flexible Teaching.
             <span className="block text-[#16C4C4]">Meaningful Impact.</span>
           </h2>
